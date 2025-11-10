@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Кав'ярня «Арома» — повний сайт</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Арома</h1>
+      <nav>
+        <a href="#about">Про нас</a>
+        <a href="#menu">Меню</a>
+        <a href="#specials">Спеціальні пропозиції</a>
+        <a href="#reviews">Відгуки</a>
+        <a href="#order">Замовлення</a>
+        <a href="#contacts">Контакти</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-content">
+        <h2>Найкраща кава у місті</h2>
+        <p>Свіже обсмаження, затишна атмосфера та усмішки барист.</p>
+        <button id="menuBtn">Переглянути меню</button>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="container about">
+      <h3>Про нас</h3>
+      <p>Кав'ярня «Арома» створена для тих, хто цінує якісну каву та затишну атмосферу. Ми обираємо тільки найкращі зерна та обсмажуємо їх щодня. Наші баристи постійно підвищують майстерність, щоб дарувати вам задоволення від кожної чашки.</p>
+      <div class="about-images">
+        <img src="assets/about1.jpg" alt="Кава в чашці">
+        <img src="assets/about2.jpg" alt="Бариста готує каву">
+      </div>
+      <p>Ми також пропонуємо спеціальні події: дегустації, майстер-класи та акції для постійних клієнтів. Кожен день у нас – це новий аромат, новий досвід та нові емоції.</p>
+    </section>
+
+    <!-- Menu -->
+    <section id="menu" class="container menu">
+      <h3>Меню</h3>
+      <div class="carousel-wrapper">
+        <button class="carousel-btn prev">&#10094;</button>
+        <div class="menu-carousel" id="menuList"></div>
+        <button class="carousel-btn next">&#10095;</button>
+      </div>
+    </section>
+
+    <!-- Specials -->
+    <section id="specials" class="container specials">
+      <h3>Спеціальні пропозиції</h3>
+      <div class="special-list">
+        <div class="special-card">
+          <img src="assets/latte.jpg" alt="Лате макіато">
+          <h4>Лате макіато</h4>
+          <p>Солодкий шар сиропу з ніжним молоком та еспресо</p>
+          <span>55 грн</span>
+        </div>
+        <div class="special-card">
+          <img src="assets/flatwhite.jpg" alt="Фраппе">
+          <h4>Фраппе</h4>
+          <p>Освіжаючий холодний кавовий напій для спекотних днів</p>
+          <span>50 грн</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews" class="container reviews">
+      <h3>Відгуки клієнтів</h3>
+      <div class="review-card">
+        <p>“Найсмачніша кава у місті! Атмосфера затишна, а бариста завжди усміхнені.”</p>
+        <span>- Олена К.</span>
+      </div>
+      <div class="review-card">
+        <p>“Люблю приходити сюди після роботи. Кава бадьорить, а десерти неймовірні!”</p>
+        <span>- Андрій П.</span>
+      </div>
+    </section>
+
+    <!-- Order Form -->
+    <section id="order" class="container order">
+      <h3>Замовлення онлайн</h3>
+      <form id="orderForm">
+        <input type="text" placeholder="Ваше ім'я" required>
+        <input type="tel" placeholder="Телефон" required>
+        <input type="text" placeholder="Що бажаєте замовити" required>
+        <button type="submit">Надіслати замовлення</button>
+      </form>
+    </section>
+
+    <!-- Contacts -->
+    <section id="contacts" class="container contacts">
+      <h3>Контакти</h3>
+      <p>Адреса: вул. Прикладна, 1 · Телефон: +38 0ХХ ХХХ ХХХХ</p>
+      <p>Email: info@aroma.ua</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© 2025 Кав'ярня «Арома» — робоча версія</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
